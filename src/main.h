@@ -11,8 +11,9 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-#define SERIAL_BAUDRATE 	9600
+#define SERIAL_BAUDRATE 	38400
 #define DATA_INTERVAL 	    20 // ms
+#define DATA_INTERVAL_LCD 	1100 // ms
 
 /* GPIO mapping */
 #define PWM1_PIN 9
